@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import News from './News';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <News date="Oct. 8th, 2019" header="NYU Shanghai students suffer from midterm" des="Perspective on Humanities/IMA Projects/Club Issues..." author="Xi" newspic="https://bit.ly/2xTmiug"/>
+      <News date="Oct. 8th, 2019" header="NYU Shanghai students suffer from midterm" des="Literally" author="Xi" newspic="https://bit.ly/2K4kdEV"/>
+      <News date="Oct. 8th, 2019" header="NYU Shanghai students suffer from midterm" des="Literally" author="Xi" newspic="https://bit.ly/2K4kdEV"/>
     </div>
   );
 }
+
 
 export default App;

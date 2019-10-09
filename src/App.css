@@ -1,22 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin-top:1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
 }
 
-.App-link {
-  color: #09d3ac;
+p {
+  margin:0;
+}
+.styleOfAll{
+  display: flex;
+ flex-direction: row;
+ padding: 10px;
+}
+.date{
+  text-align: left;
+  font-size:5px;
+  margin-right: 50px;
+  color:grey;
+}
+
+.HeadofNews{
+  font-family: Georgia;
+  font-display: bold;
+  font-size: 30px;
+  margin:0px;
+}
+.description{
+  font-family: Georgia;;
+}
+
+.author{
+  color:grey;
+
+}
+.NewsPic{
+  height: 200pz;
+
+}
+.profileCard {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.profileImage {
+  background-image: url('https://us.123rf.com/450wm/alexraths/alexraths1311/alexraths131100069/23939590-rainbow-trout-isolated-on-a-white-background.jpg?ver=6');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6em; /* em is relative to the font size */
+}
+
+.profileHeader {
+  padding-top: 5px;
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileHeader h1 {
+  margin-top: 5em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.profileHeader p {
+  font-size: .5em;
+  margin: 0;
+  padding: 0;
+}
+
+.profileHeader .likes {
+  font-size: .6em;
+  color: salmon;
+  margin: 0;
+  padding: 0;
+}
+
+.profileDescription {
+  font-size: .9em;
+}
+
+.profileDescription img {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+
 }
