@@ -1,47 +1,76 @@
 body {
-  margin-top:1%;
-  margin-left: 20%;
-  margin-right: 20%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
-  margin:0;
-}
-.styleOfAll{
-  display: flex;
- flex-direction: row;
- padding: 10px;
-}
-.date{
-  text-align: left;
-  font-size:5px;
-  margin-right: 50px;
-  color:grey;
+    margin: 0;
 }
 
-.HeadofNews{
-  font-family: Georgia;
-  font-display: bold;
-  font-size: 30px;
-  margin:0px;
-}
-.description{
-  font-family: Georgia;;
+img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }
 
-.author{
-  color:grey;
-
+.styleOfAll {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
-.NewsPic{
-  height: 200pz;
 
+.date {
+    text-align: left;
+    margin-right: 30px;
+    color: grey;
+    /* font-size-adjust: inherit; */
+    /* text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline; */
 }
+
+.HeadofNews {
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+     */
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: Georgia;
+    font-display: bold;
+    font-size: 120%;
+    margin: 0px;
+}
+
+.description {
+    margin: 10px 0;
+    font-family: Georgia;
+    ;
+    font-size: 60%;
+}
+
+.author {
+    margin: 10px 0;
+    color: #999;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.NewsPic {
+    height: 200pz;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
 .profileCard {
     background: white;
     display: flex;
@@ -57,49 +86,49 @@ p {
 }
 
 .profileImage {
-  background-image: url('https://us.123rf.com/450wm/alexraths/alexraths1311/alexraths131100069/23939590-rainbow-trout-isolated-on-a-white-background.jpg?ver=6');
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 6em; /* em is relative to the font size */
+    background-image: url('https://us.123rf.com/450wm/alexraths/alexraths1311/alexraths131100069/23939590-rainbow-trout-isolated-on-a-white-background.jpg?ver=6');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6em;
+    /* em is relative to the font size */
 }
 
 .profileHeader {
-  padding-top: 5px;
-  border-top: 2px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    padding-top: 5px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .profileHeader h1 {
-  margin-top: 5em;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
+    margin-top: 5em;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
 
 .profileHeader p {
-  font-size: .5em;
-  margin: 0;
-  padding: 0;
+    font-size: .5em;
+    margin: 0;
+    padding: 0;
 }
 
 .profileHeader .likes {
-  font-size: .6em;
-  color: salmon;
-  margin: 0;
-  padding: 0;
+    font-size: .6em;
+    color: salmon;
+    margin: 0;
+    padding: 0;
 }
 
 .profileDescription {
-  font-size: .9em;
+    font-size: .9em;
 }
 
 .profileDescription img {
-  margin-top: 10px;
-  text-align: center;
-  width: 100%;
-
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
 }
