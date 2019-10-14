@@ -1,7 +1,7 @@
 body {
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background: white;
     display: flex;
     justify-content: center;
@@ -14,17 +14,19 @@ p {
 
 img {
     width: 200px;
-    height: 100px;
+    height: 150px;
     object-fit: cover;
 }
 
 .styleOfAll {
     display: flex;
+    flex: 0 0 200px;
     flex-direction: row;
     padding: 10px;
 }
 
 .date {
+    flex: 0 0 100px;
     text-align: left;
     margin-right: 30px;
     color: grey;
@@ -33,7 +35,9 @@ img {
   font: inherit;
   vertical-align: baseline; */
 }
-
+.mainPart{
+    flex: 0 0 500px;
+}
 .HeadofNews {
     /* margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -64,6 +68,7 @@ img {
 }
 
 .NewsPic {
+    flex: 0 0 200px;
     height: 200pz;
     margin-block-start: 1em;
     margin-block-end: 1em;
